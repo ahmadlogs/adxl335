@@ -6,14 +6,14 @@
 //calibrated minimum and maximum Raw Ranges for each axis
 //use calibration.ino file to get these values
 //MMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-int xMin = 264;
-int xMax = 400;
+int xMin = 0;
+int xMax = 0;
 //MMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-int yMin = 264;
-int yMax = 420;
+int yMin = 0;
+int yMax = 0;
 //MMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-int zMin = 267;
-int zMax = 400;
+int zMin = 0;
+int zMax = 0;
 //MMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 //--------------------------------------------------------------
 // Take multiple samples to reduce noise
