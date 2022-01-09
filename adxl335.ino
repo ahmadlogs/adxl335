@@ -1,3 +1,12 @@
+/* ****************************************************************************
+ * Created By: Tauseef Ahmad
+ * Create On: 8th January, 2022
+ * 
+ * How To Interface ADXL335 Analog Accelerometer Sensor With Arduino
+ * Tutorial: https://youtu.be/HrIBGJep-1o
+ * 
+ *****************************************************************************/
+
 //--------------------------------------------------------------
 #define xPin A1
 #define yPin A2
