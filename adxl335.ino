@@ -56,15 +56,22 @@ void loop()
   float y_g_value = yMilliG / 1000.0;
   float z_g_value = zMilliG / 1000.0;
   //--------------------------------------------------------------
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
   Serial.print(x_g_value,0);
-  //Serial.print("G");
+  //Serial.print(x_g_value,2);
+  Serial.print("G");
   Serial.print("\t");
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
   Serial.print(y_g_value,0);
-  //Serial.print("G");
+  //Serial.print(y_g_value,2);
+  Serial.print("G");
   Serial.print("\t");
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
   Serial.print(z_g_value,0);
-  //Serial.print("G");
+  //Serial.print(z_g_value,2);
+  Serial.print("G");
   Serial.println();
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
   //--------------------------------------------------------------
   delay(200);
 }
